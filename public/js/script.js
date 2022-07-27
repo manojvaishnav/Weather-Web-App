@@ -23,7 +23,7 @@ const getTime = () => {
             time = `${hours}:0${minutes} PM`
         }
         else {
-            time = `${hours}:${minutes} AM`
+            time = `${hours}:${minutes} PM`
         }
     }
     else if (hours < 10) {
