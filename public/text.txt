@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Information</title>
+    <link rel="stylesheet" href="../public/css/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <div class="navbar">
+            <div class="logo">
+                <span id="logotext1"><a href="">W</a></span>
+                <span id="logotext2"><a href="">Information</a></span>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">AboutUs</a>
+                    <li><a href="">ContactUs</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Body -->
+    <div class="content">
+        <section class="tempsection">
+            <span id="msg">Weather Information</span>
+            <div class="box">
+                <div class="searchbar">
+                    <div class="search">
+                        <input type="text" placeholder="Enter City Name">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                </div>
+                <div class="temp">
+                    <div class="img">
+                    <i class="fa-solid fa-cloud-rain" style="color: rgb(234, 228, 228);"></i>
+                    </div>
+                    <div class="tempdata">
+                        <span id="time">04:56 PM</span>
+                        <span id="tempoutput">22*C</span>
+                        <span id="condition">clouds</span>
+                    </div>
+                </div>
+                <div class="otherdata">
+                    <div class="extra">
+                        <span>WindSpeed</span>
+                        <span>1020</span>
+                    </div>
+                    <div class="extra">
+                        <span>Preasure</span>
+                        <span>1020</span>
+                    </div>
+                    <div class="extra">
+                        <span>Humidity</span>
+                        <span>1020</span>
+                    </div>
+                    <div class="extra">
+                        <span>Humidity</span>
+                        <span>1020</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="socialsection">
+            <i class="fa-brands fa-github" title="Git"></i>
+            <i class="fa-brands fa-linkedin-in" title="LinkedIn"></i>
+            <!-- <i class="fa-solid fa-circle-envelope"></i> -->
+            <i class="fa-brands fa-whatsapp" title="Whatsapp"></i>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footerdata">
+            <span>All Rights Reserved</span>
+        </div>
+    </footer>
+
+</body>
+
+</html>

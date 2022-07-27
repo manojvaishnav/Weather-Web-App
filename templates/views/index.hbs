@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {{>header}}
+    
+    <title>Weather Information</title>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    {{>navbar}}
+
+    <!-- Body -->
+    <div class="content">
+        <section class="tempsection">
+            <span id="msg">Weather Information</span>
+            <div class="box">
+                <div class="searchbar">
+                    <div class="search">
+                        <input type="text" id="city" placeholder="Enter City Name">
+                        <i id="search" class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                </div>
+                <div class="temp">
+                    <div class="img" id="conditionimg">
+
+                    </div>
+                    <div class="tempdata">
+                        <span id="time"></span>
+                        <span id="tempoutput"></span>
+                        <span id="condition"></span>
+                    </div>
+                </div>
+                <div class="otherdata">
+                    <div class="extra">
+                        <span>WindSpeed</span>
+                        <div class="span" id="windspeed"></div>
+                    </div>
+                    <div class="extra">
+                        <span>Preasure</span>
+                        <div class="span" id="preasure"></div>
+                    </div>
+                    <div class="extra">
+                        <span>Humidity</span>
+                        <div class="span" id="humidity"></div>
+                    </div>
+                    <div class="extra">
+                        <span>Visibility</span>
+                        <div class="span" id="visibility"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        {{>social}}
+    </div>
+
+    <!-- Footer -->
+    {{>footer}}
+    <script src="js/script.js"></script>
+</body>
+
+
+</html>
